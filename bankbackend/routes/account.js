@@ -6,13 +6,14 @@ router.route("/add").post((req,res) => {
     const id = Number(req.body.id);
     const name = req.body.name;
     const nic = req.body.nic;
+    const email = req.body.email;
     const balance = Number(req.body.balance);
-    
 
     const newAccount = new Account({
         id,
         name,
         nic,
+        email,
         balance
     })
 
@@ -40,12 +41,13 @@ router.route("/update/:id").put(async (req,res) => {
     let userId = req.params.id;
 
     // const name = req.body.name; You also can do this way, otherwise use destructute method
-    const {id,name,nic,balance} = req.body;
+    const {id,name,nic,email,balance} = req.body;
 
     const updateAccount = {
         id,
         name,
         nic,
+        email,
         balance
     }
 
