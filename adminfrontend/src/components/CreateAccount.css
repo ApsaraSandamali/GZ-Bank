@@ -1,0 +1,40 @@
+.backgrounimage{
+  
+    background-image: url("../accountbg.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(80vh);
+  }
+
+.line1 {
+    width: 300px;
+    text-align: center;
+    margin: auto; 
+}
+
+.line2 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.line3 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.line4 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.line5 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.mt-2 {
+    margin-bottom: ( 2) !important;
+  }
