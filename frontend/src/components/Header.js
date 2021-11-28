@@ -15,7 +15,7 @@ function Header() {
           <ul class="nav nav-tabs">
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/home">Home</a>
+              <a class="nav-link text-dark fw-bolder" href="/">Home</a>
             </li>
 
             <li class="nav-item">
@@ -27,11 +27,11 @@ function Header() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" /* href="/add" */>Pay Bill</a>
+              <a class="nav-link text-dark fw-bolder"  href="/email" >Pay Bill</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/">Apply Loan</a>
+              <a class="nav-link text-dark fw-bolder" href="/get">Apply Loan</a>
             </li>
 
             <li class="nav-item">
