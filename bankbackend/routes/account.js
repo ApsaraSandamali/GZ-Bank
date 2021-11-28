@@ -85,5 +85,17 @@ router.route("/get/:id").get(async(req,res)=>{
     //await Student.findOne(email)
 })
 
+router.route("/get/:id/:nic").get(async(req,res)=>{
+    let account =  (req.params.id);
+    let nicNo =  (req.params.nic);
+    console.log(account, nicNo);
+    const user = await Account.find({ $and: [ { id:  account  }, { nic :  nicNo  } ] } )
+    .then((account)=>{
+        res.status(200).send({status: "user fetched", account})
+    }).catch(()=>{
+        console.log(err.message);
+        res.status(500).send({status: "Error with get user ", error: err.message});
+    })
 
+})
 module.exports = router;
