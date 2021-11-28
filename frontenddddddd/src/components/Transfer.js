@@ -19,7 +19,6 @@ export default function Transfer() {
                 } catch { }
             };
             Details();
-            
 
         }, [setAccount]);
     
