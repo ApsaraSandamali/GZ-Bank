@@ -12,10 +12,11 @@ function Header() {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <ul class="nav nav-tabs">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
 
             <li class="nav-item">
               <a class="nav-link text-dark fw-bolder" href="/">Home</a>
+
             </li>
 
             <li class="nav-item">
@@ -27,11 +28,11 @@ function Header() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder"  href="/email" >Pay Bill</a>
+              <a class="nav-link text-dark fw-bolder" href="/cebacc" >Pay CEB Bill</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/get">Apply Loan</a>
+              <a class="nav-link text-dark fw-bolder" href="/crib" >Apply Loan</a>
             </li>
 
             <li class="nav-item">

@@ -1,4 +1,3 @@
-import { useParams } from "react-router";
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -21,7 +20,6 @@ export default function EditAccount() {
   const ubalance = queryParams.get('balance');
   const redirect = useHistory();
 
-
   const [newName, setName] = useState(uname);
 
   const setNewName = (uname) => {
@@ -35,7 +33,7 @@ export default function EditAccount() {
   const [newEmail, setEmail] = useState(uEmail);
 
   const setNewEmail = (uEmail) => {
-    setNIC(uEmail);
+    setEmail(uEmail);
   }
   console.log(newName);
   console.log(newNIC);
@@ -83,7 +81,6 @@ export default function EditAccount() {
           id="filled-required"
           label="Required"
           defaultValue={uaccount}
-
           helperText="Account Number"
           variant="filled"
         /> <br />

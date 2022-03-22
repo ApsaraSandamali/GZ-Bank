@@ -14,7 +14,7 @@ export default function Contact() {
             <p class="font-weight-normal text-dark" ><u>ARN Web Technologies</u></p>
             M.H.Apsara Sandamali (AS2018527) <br />
             H.S.R.K.Siriwardana (AS2018543) <br />
-            A.N.S.N.Upeksha De Silva (AS2018328)
+            A.N.D.N.Upeksha De Silva (AS2018328)
 
             <hr />
             <div class="text-dark fw-bolder">

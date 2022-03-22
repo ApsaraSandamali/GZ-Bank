@@ -5,9 +5,9 @@ export default function Home() {
 
   return (
     <div className='container'>
-      <img src={logo} width="300" height="200" />
-      <div class="card">
-        <div class="card-header fw-bold bg-dark text-light">
+      <img src={logo} width="300" height="200"/>
+      <div class="card w-100">
+        <div class="card-header fw-bold bg-dark text-light" >
           GENERATION Z BANK
         </div>
 

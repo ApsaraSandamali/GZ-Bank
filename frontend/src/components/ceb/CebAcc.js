@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
-import moneyTransfer from "../moneyTransfer.png";
+import "./CebAcc.css";
 import Button from 'react-bootstrap/Button';
-import "./Transfer.css";
 import { useHistory } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 const jwt = require("jsonwebtoken");
 var randomize = require('randomatic');
 
-export default function Transfer() {
+export default function Ceb() {
 
     const [user, setUser] = useState([]);
     const redirect = useHistory();
@@ -23,8 +22,6 @@ export default function Transfer() {
     const setNewNIC = (NIC) => {
         setNIC(NIC);
     };
-
-    console.log(newAccount, newNIC);
 
     useEffect(() => {
         const getUser = async () => {
@@ -87,9 +84,7 @@ export default function Transfer() {
 
     return (
         <div className="bgimage">
-            <img src={moneyTransfer} class="rounded float-start text-center" width="600" height="400" />
-
-            <br /> <br /> <br />
+            <br/><br/><br/>
             <form>
                 <div className="card marginform">
                     <div class="card-body" >

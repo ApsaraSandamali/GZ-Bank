@@ -21,13 +21,6 @@ export default function TransferForm() {
     const decodedEmail = decodedUser.email;
     const decodedBalance = decodedUser.balance;
 
-
-    const [newRecAccount, setRecAccount] = useState("");
-
-    const setNewRecAccount = (account) => {
-        setRecAccount(account);
-    };
-
     const [newAmount, setAmount] = useState();
 
     const setNewAmount = (Amount) => {
@@ -35,7 +28,8 @@ export default function TransferForm() {
     };
 
     const accountUpdate = async (newRecAccount) => {
-        const response = await fetch(`http://localhost:8070/account/getAcc/${newRecAccount}`);
+        
+
         const recipient = await response.json();
 
 
@@ -107,14 +101,7 @@ export default function TransferForm() {
                             <div class="card-body" >
 
                                 <div className="mt-2">
-                                    <label for="enterAccount"><b>Enter recipient account number</b></label>
-                                </div>
-                                <div className="mt-2">
-                                    <input type="text" placeholder="Recipient Account number" id="enteraccount" required
-                                        onInput={e => setNewRecAccount(e.target.value)} />
-                                </div>
-                                <div className="mt-2">
-                                    <label for="enterAmount"><b>Enter amount</b></label>
+                                    <label for="enterAmount"><b>Enter Bill amount</b></label>
                                 </div>
                                 <div className="mt-2">
                                     <input type="text" placeholder="Amount" id="enteramount" required

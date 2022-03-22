@@ -21,7 +21,7 @@ function Header() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/add" >Create Account</a>
+              <a class="nav-link text-white fw-bolder" href="/confirmacc" >Create Account</a>
             </li>
 
             <li class="nav-item">

@@ -1,11 +1,12 @@
-.backimage{
+.backgrounimage{
+  
     background-image: url("../accountbg.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: calc(80vh);
   }
-.card{
+  .card{
     align-self: center;
     margin: 0 auto; /* Added */
     float: none; /* Added */
@@ -15,21 +16,3 @@
     height: 14rem;
 }
 
-.bck-image{
-  background-image: url("../email.jpg"); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  
-}
-
-.marginform{
-    margin-top: 20px;
-}
-
-.left{
-  display: block;
-  margin-left:5%;
-  margin-top: 5%;
-  width: 40%;
-}

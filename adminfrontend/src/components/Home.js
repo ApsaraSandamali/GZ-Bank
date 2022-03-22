@@ -5,10 +5,10 @@ export default function Home() {
 
   return (
     <div className='container'>
-      <img src={logo} width="300" height="200" />
-      <div class="card">
+      <img src={logo} width="300" height="200"/>
+      <div class="card w-100">
         <div class="card-header fw-bold bg-dark text-light">
-          GENERATION Z BANK
+          GENERATION Z BANK - ADMINISTRATOR
         </div>
 
         <div class="card-body">

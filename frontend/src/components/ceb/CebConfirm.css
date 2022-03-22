@@ -1,0 +1,12 @@
+.bggr1_image{
+  
+    background-image: url("../../ceb.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(80vh);
+  }
+  .card{
+      align-tracks: center;
+      background-position: center;
+  } 
