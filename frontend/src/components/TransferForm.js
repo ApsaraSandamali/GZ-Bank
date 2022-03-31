@@ -75,7 +75,7 @@ export default function TransferForm() {
     }
 
     return (
-        <div className="bg_image">
+        <div className="bgt_image">
             <br />
 
             <form>

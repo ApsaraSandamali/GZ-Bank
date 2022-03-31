@@ -37,7 +37,7 @@ export default function EmailConfirm() {
 
 
     return (
-        <div className="backimage">
+        <div className="backimaget">
             <br /> <br />
             <div class="text-dark fw-bolder">
                 <h3> WE SENT A CODE TO YOUR EMAIL. PLEASE CHECK YOUR EMAIL. </h3>

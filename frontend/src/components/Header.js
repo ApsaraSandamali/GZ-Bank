@@ -15,28 +15,28 @@ function Header() {
           <ul class="nav nav-tabs" id="myTab" role="tablist">
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/">Home</a>
+              <a class="nav-link text-dark fw-bolder" href="/">HOME</a>
 
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/about">About</a>
+              <a class="nav-link text-dark fw-bolder" href="/about">ABOUT</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/transfer">Money Transfer</a>
+              <a class="nav-link text-dark fw-bolder" href="/transfer">CREDIT TRANSFER</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/cebacc" >Pay CEB Bill</a>
+              <a class="nav-link text-dark fw-bolder" href="/ceb" >PAY CEB BILL</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/crib" >Apply Loan</a>
+              <a class="nav-link text-dark fw-bolder" href="/crib" >APPLY LOAN</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder" href="/contact">Contact Us</a>
+              <a class="nav-link text-dark fw-bolder" href="/contact">CONTACT US</a>
             </li>
           </ul>
         </div>

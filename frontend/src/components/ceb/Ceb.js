@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Ceb.css";
+import ceb from "../../ceb1.png";
 import Button from 'react-bootstrap/Button';
 import { useHistory } from 'react-router-dom';
 const jwt = require("jsonwebtoken");
@@ -18,26 +19,28 @@ export default function Ceb() {
     useEffect(() => {
         const getUser = async () => {
             try {
-                const response = await fetch(`http://localhost:8071/account/get/${newCebAccount}`); /*use nish link*/
+                const response = await fetch(`http://localhost:8080/gzbank/get/${newCebAccount}`); 
                 const data = await response.json();
                 setUser(data);
+                
             } catch { }
         };
         getUser();
     }, [setUser]);
 
     const handleSubmit = async (newAccount) => {
-        const response = await fetch(`http://localhost:8071/account/get/${newAccount}`); /*use nish link*/
+        const response = await fetch(`http://localhost:8080/gzbank/get/${newAccount}`);
         const data = await response.json();
 
-        if (data.account.length == 0) {
+        if (data.Customer.length == 0) {
             window.alert("Invalid CEB Account number")
         }
         else {
             const userToken = jwt.sign(
                 {
-                    nic: data.account[0].nic,
-                    name: data.account[0].name,
+                    nic: data.Customer[0].idNumber,
+                    fname: data.Customer[0].fName,
+                    lname: data.Customer[0].lName,
                 },
                 'apasra1997',
                 { expiresIn: "1h" }
@@ -49,10 +52,14 @@ export default function Ceb() {
         }
 
     return (
-        <div className="bggr1_image">
+        <div className="bggr11_image">
+           
+
             <br/> <br/> <br/>
+            
+
             <form>
-                <div className="card marginform m">
+                <div className="card marginform m float-xl-end">
                     <div class="card-body" >
 
                         <div className="mt-3">
@@ -69,7 +76,7 @@ export default function Ceb() {
                     </div>
                 </div>
             </form >
-        
+            
         </div>
     )
 }

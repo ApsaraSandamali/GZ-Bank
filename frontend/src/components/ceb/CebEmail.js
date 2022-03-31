@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./EmailConfirm.css";
+import "./CebEmail.css";
 import Button from 'react-bootstrap/Button';
 import { useHistory } from 'react-router-dom';
 const jwt = require("jsonwebtoken");
@@ -28,7 +28,7 @@ export default function EmailConfirm() {
         //compare the code and verify email
         if (verifyCode == newCode) {
 
-            redirect.push(`/email/?userToken=${userKey}`);
+            redirect.push(`/cebamount/?userToken=${userKey}`);
         }
         else {
             window.alert("Invalid Code")
@@ -39,7 +39,7 @@ export default function EmailConfirm() {
     return (
         <div className="backimage">
             <br /> <br />
-            <div class="text-dark fw-bolder">
+            <div class="text-light fw-bolder">
                 <h3> WE SENT A CODE TO YOUR EMAIL. PLEASE CHECK YOUR EMAIL. </h3>
             </div>
             <br />

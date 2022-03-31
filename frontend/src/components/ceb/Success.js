@@ -1,11 +1,11 @@
 import React from "react";
-import "./TransferSuccess.css";
+import "./Success.css";
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
 export default function About() {
     return (
-        <div className="bkgr22_image">
+        <div className="bkgr_image">
             <br /> <br />
             <div className="card marginform">
                 <div class="card-body" ></div>

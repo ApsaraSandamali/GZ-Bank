@@ -14,23 +14,31 @@ export default function CebConfirm() {
 
     var decodedUser = jwt.verify(userKey, 'apasra1997');
 
-    const decodedName = decodedUser.name;
+    const decodedfName = decodedUser.fname;
+    const decodedlName = decodedUser.lname;
 
     return (
         <div className="bggr1_image">
-            <br /> <br /> <br />
+             <br /> <br />
             <form>
                 <div className="card marginform m">
                     <div class="card-body" >
 
-                        <div className="mt-3">
-                            <label for="name"><b>Your Name</b></label>
+                        <div className="mt-2">
+                            <label for="name"><b>Your First Name</b></label> 
                         </div>
-                        <div className="mt-3">
-                            <input type="text-center" placeholder="Your Name" id="name" required defaultValue={decodedName} disabled />
+                        <div className="mt-2">
+                            <input type="text-center" placeholder="Your Name" id="name" required defaultValue={decodedfName} disabled />
                         </div>
 
-                        <div className="mt-5">
+                        <div className="mt-3">
+                            <label for="name"><b>Your Last Name</b></label> 
+                        </div>
+                        <div className="mt-2">
+                            <input type="text-center" placeholder="Your Name" id="name" required defaultValue={decodedlName} disabled />
+                        </div>
+
+                        <div className="mt-3">
                             <Link class="edit-Link" className="mr-5" to={`/cebacc`}>
                                 <Button size="sm" variant="primary" >Confirm</Button>
                             </Link>

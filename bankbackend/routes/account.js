@@ -93,7 +93,7 @@ router.route("/get/:id").get(async (req, res) => {
         console.log(err.message);
         res.status(500).send({ status: "Error with get user ", error: err.message });
     })
-    //await Student.findOne(email)
+    
 })
 
 router.route("/get/:id/:nic").get(async (req, res) => {

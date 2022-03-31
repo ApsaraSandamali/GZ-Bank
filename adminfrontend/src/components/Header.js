@@ -13,19 +13,19 @@ function Header() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/">Home</a>
+              <a class="nav-link text-white fw-bolder" href="/">HOME</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/about">About</a>
+              <a class="nav-link text-white fw-bolder" href="/about">ABOUT</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/confirmacc" >Create Account</a>
+              <a class="nav-link text-white fw-bolder" href="/confirmacc" >CREATE ACCOUNT</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/allaccounts">All Accounts</a>
+              <a class="nav-link text-white fw-bolder" href="/allaccounts">ALL ACCOUNTS</a>
             </li>
 
           </ul>

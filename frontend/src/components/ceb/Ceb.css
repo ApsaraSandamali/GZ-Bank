@@ -1,6 +1,6 @@
-.bggr1_image{
+.bggr11_image{
   
-    background-image: url("../../ceb.png"); 
+    background-image: url("../../ceb3.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,3 +10,7 @@
       align-tracks: center;
       background-position: center;
   } 
+  .float {
+        start: left,
+  }
+ 

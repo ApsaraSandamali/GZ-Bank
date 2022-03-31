@@ -14,7 +14,7 @@ export default function Home() {
         <div class="card-body">
           <blockquote class="blockquote mb-0">
             <p>“Everyday is a bank account, and time is our currency. No one is rich, no one is poor, we've got 24 hours each.”</p>
-            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            
           </blockquote>
         </div>
       </div>

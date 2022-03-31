@@ -11,8 +11,11 @@ import TransferSuccess from './components/TransferSuccess';
 import Ceb from './components/ceb/Ceb';
 import CebConfirm from './components/ceb/CebConfirm';
 import CebAcc from './components/ceb/CebAcc';
-
-import Crib from './components/Crib';
+import CebEmail from './components/ceb/CebEmail';
+import CebAmount from './components/ceb/CebAmount';
+import Success from './components/ceb/Success';
+import Crib from './components/crib/Crib';
+import Detail from './components/crib/Detail';
 
 function App() {
   return (
@@ -26,10 +29,17 @@ function App() {
         <Route path='/verifyEmail' exact component={EmailConfirm} />
         <Route path='/email' exact component={TransferForm} />
         <Route path='/success' exact component={TransferSuccess} />
-        <Route path='/crib' exact component={Crib} />
+        
         <Route path='/ceb' exact component={Ceb} />
         <Route path='/cebconfirm' exact component={CebConfirm} />
         <Route path='/cebacc' exact component={CebAcc} />
+        <Route path='/cebemail' exact component={CebEmail} />
+        <Route path='/cebamount' exact component={CebAmount} />
+        <Route path='/cebsuccess' exact component={Success} />
+
+        <Route path='/crib' exact component={Crib} />
+        <Route path='/detail' exact component={Detail} />
+        
       </div>
     </Router>
 

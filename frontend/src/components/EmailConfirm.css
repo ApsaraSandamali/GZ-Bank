@@ -1,4 +1,4 @@
-.backimage{
+.backimaget{
     background-image: url("../accountbg.png"); 
     background-repeat: no-repeat;
     background-position: center;
@@ -15,8 +15,8 @@
     height: 14rem;
 }
 
-.bck-image{
-  background-image: url("../email.jpg"); 
+.bckt-image{
+    background-image: url("../accountbg.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

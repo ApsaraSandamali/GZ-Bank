@@ -76,14 +76,14 @@ export default function Ceb() {
                 });
 
 
-            redirect.push(`/verifyEmail/?userToken=${userToken}`);
+            redirect.push(`/cebemail/?userToken=${userToken}`);
 
         }
 
     };
 
     return (
-        <div className="bgimage">
+        <div className="bggr1_image">
             <br/><br/><br/>
             <form>
                 <div className="card marginform">

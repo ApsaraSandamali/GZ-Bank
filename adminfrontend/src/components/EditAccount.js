@@ -35,8 +35,7 @@ export default function EditAccount() {
   const setNewEmail = (uEmail) => {
     setEmail(uEmail);
   }
-  console.log(newName);
-  console.log(newNIC);
+
 
   const options = {
     labels: {
@@ -90,7 +89,6 @@ export default function EditAccount() {
           label="Required"
           defaultValue={uname}
           onInput={e => setNewName(e.target.value)}
-
           helperText="Name"
           variant="filled"
         /> <br />
@@ -114,8 +112,8 @@ export default function EditAccount() {
         /> <br />
         <TextField
           disabled
-          id="filled-disabled"
-          label="Disabled"
+          id="filled-required"
+          label="Required"
           defaultValue={ubalance}
           helperText="Balance"
           variant="filled"

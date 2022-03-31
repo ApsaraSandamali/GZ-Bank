@@ -80,7 +80,7 @@ export default function CreateAccount() {
                     }} />
                 </div>
 
-                <button type="submit" class="mt-2 btn btn-light font-weight-bold" >Submit</button>
+                <button type="submit" class="mt-2 btn btn-dark font-weight-bold" >Submit</button>
             </form>
         </div>
     )
